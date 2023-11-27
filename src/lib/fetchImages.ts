@@ -21,8 +21,8 @@ Promise<ImagesResults | undefined> {
         if (parseData.total_results === 0) return undefined;
 
         return parseData;
-    } catch (e) {
-        if (e instanceof Error) console.log(e.stack)
+    } catch (error) {
+        if (error instanceof Error) console.log(error.stack)
     }
     
 }
