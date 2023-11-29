@@ -3,7 +3,7 @@ import Search from "../Search/component"
 
 export default function Navbar() {
     return (
-        <header className="bg-neutral-950 sticky top-0 z-10">
+        <header className="bg-neutral-900 sticky top-0 z-10">
             <nav 
             className="flex flex-col gap-4 items-center
             sm:flex-row sm:justify-between 
